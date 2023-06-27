@@ -1,0 +1,46 @@
+        // --- Operadores em javaScript ---
+        //
+        // --- Aritmeticos ---
+        //
+        // + -> Soma
+        // - -> Subtração
+        // * -> Multiplicação
+        // / -> Divisão
+        // % -> Resto da divisão
+        // ** -> potênciação
+        //
+        // --- Ordem de precendência dos operadores ---
+        // ()
+        // **
+        // * / %
+        // + -
+        //
+        // --- Operadores relacionais ---
+        // obs:. Operadores relacionais retornam valores booleanos.
+        //
+        // > -> Maior que
+        // < -> Menor que
+        // >= -> Maior e igual á
+        // <= -> Menor e igual á
+        // == -> Igualdade
+        // != -> Diferente de (não igual)
+        //
+        // --- Operador de identidade ---
+        // podemos utilizar alguns exemplos:
+        // 5 == 5 -> true
+        // 5 == '5' -> true --javaScript compara um valor number e um valor string, se ambos tiverem mesmo peso, mesma identidade, ele retornará como verdadeiro.
+        // 5 === '5' -> false --neste caso a variavel possui o mesmo valor, mas, tipo diferente.
+        // 5 === 5 -> true --neste caso são todos identicos
+        //
+        // --- Operadores logicos ---
+        // obs:. O padrão a baixo, segue a mesma logica de execução
+        // ! -> Negação
+        // && -> Conjunção
+        // || -> Disjunção 
+        //
+        // --- Ordem de precedencia de todos os operadores ---
+        //
+        // Aritimeticos - Relacionais e logicos ( ! && || )
+        //
+        // --- Operador ternário
+        // teste logico ? true : false -> A partir do resultado do teste logico, o operador retornará a ação se for verdadeiro ou outra se for falso

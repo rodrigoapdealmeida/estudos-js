@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: lightslategray;   /* Comentário em CSS. */
+            color: white;
+            font: normal 25pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>    <!-- Comentário em HTML. -->
+    <p>Já me livrei da maldição!!</p>
+
+    <script>
+        //var n1 = Number.parseFloat(window.prompt('Digite um número: ')) //Converte em float
+        //var n2 = Number.parseFloat(window.prompt('Digite outro número: ')) //window.prompt(n) é String.
+        var n1 = Number(window.prompt('Digite um número: ')) //converte de acordo com o valor de input
+        var n2 = Number(window.prompt('Digite outro número: ')) 
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) //Concatenação
+
+        // ----------------------------------------
+        // --- Exemplo de tratamento e converção de dados ---  
+        //
+        // (number + number) para adição           
+        // (string + string) para concatenação 
+        // Number.parseInt(n) converter para tipo inteiro
+        // Number.parseFloat(n) converter para tipo real, ponto flutuante
+        // Number(n) a linguagem decide o tipo de dado, pela entrada digitada
+        // String(n) converte valor para string
+        // n.toString() converte valor para string
+        //
+        // ----------------------------------------
+        // --- Formatando Strings ---
+        //
+        // `Eu estou aprendendo ${s}` usa tamplate string 
+        //${n} isso é um placeholder
+        //n.length - Quantos caracteres a string tem.
+        //n.toUpperCase() - Tudo para letra 'MAIÚSCULAS'
+        //n.toLowerCase() - tudo para 'minúsculas'
+        //
+        // ---------------------------------------
+        // --- Formatando Numbers ---
+        //n1.toFixed(n2) - Acrescenta casas decimais
+        //n1.toLocaleString('pt-BR',{style:'currency', currency:'BRL'}) - Converte valor da variavel em moeda.
+
+    </script>
+</body>
+</html>
